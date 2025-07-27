@@ -1,0 +1,15 @@
+AIRFLOW_UID=50000
+AIRFLOW__CORE__FERNET_KEY=paste_fernet_key_kamu_disini          <- disini
+AIRFLOW_CONN_PROJECT_POSTGRES=postgresql+psycopg2://project_user:project_pass@project_postgres:5432/project_db
+TELEGRAM_TOKEN= paste_TELEGRAM_TOKEN_kamu_disini                <- disini
+TELEGRAM_CHAT_ID=paste_TELEGRAM_CHAT_ID_kamu_disini             <- disini
+
+
+
+
+
+
+
+
+
+
