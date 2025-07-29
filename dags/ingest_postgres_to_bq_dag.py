@@ -142,7 +142,8 @@ with DAG(
             time_partitioning={
                 "type": "DAY",
                 "field": "created_at"
-            }
+            },
+            schema_fields=SCHEMA_MAPPING[table]
         )
 
         check_and_extract >> load_to_bq
